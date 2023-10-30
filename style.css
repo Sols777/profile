@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+ body {
+  color: rgb(34, 32, 32);
+  text-align: center;
+  text-decoration: none ;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+ }
+
+ a{
+  text-decoration-line: none ;
+  color: rgb(14, 14, 14);
+  background-color: rgb(253, 253, 253);
+  border-radius: 5px;
+  text-decoration: solid;
+  box-shadow: 0px 0px 10px 5px rgb(91, 91, 91);
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 5px;
+ }
+ a:hover{
+  color: white;
+  background-color: rgb(9, 24, 9);
+ }
+
+h1{
+  color: rgb(24, 66, 31);
+  font-weight: 500;
+  box-shadow: 0px 0px 5px 2px rgb(91, 91, 91);
+  background-color: rgb(240, 240, 240);
+  text-shadow: 10cap;
+}
+
+h2{
+  color: rgb(44, 112, 44);
+  font-weight: 400;
+  text-decoration: solid;
+  font-size:larger ;
+}
+div{
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card-white{
+  width: 700px;
+  padding: 0px;
+  margin: 0 auto;
+  background-color: rgb(139, 225, 118);
+  box-shadow: 0px 0px 10px 5px rgb(91, 91, 91);
+  border-radius: 5px;
+}
+
+.list-inline li{
+  display: inline;
+  margin-left: 2px;
+}
+
+.list-inline {
+  padding: 0px ;
+}
+
+.img-border{
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px rgb(91, 91, 91);
+  text-decoration-style: solid;
+  height: 300px;
+}
+
+.icon-border{
+  border-radius: 3px;
+  background-size: 20%;
+}
+
+.container {
+  width: 960px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  h2{
+    color: red;
+  }
+}
